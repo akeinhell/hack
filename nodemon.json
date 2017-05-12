@@ -1,0 +1,4 @@
+{
+  "verbose": true,
+  "ignore": ["public/*","public/**/*","public/js/*","public/css/*", "data/*", "*.log"]
+}

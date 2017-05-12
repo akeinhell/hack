@@ -1,0 +1,12 @@
+{% extends 'Play/layout.twig' %}
+
+{% block header %}
+    <link rel='stylesheet' href='/css/{{ assets['play'][1] }}'/>
+    <script src="/js/{{ assets['vendor'][0] or assets['vendor'] }}"></script>
+{% endblock %}
+
+{% block body %}
+    <div id="root"></div>
+    <script src="/js/{{ assets['play'][0] }}"></script>
+    <!-- {{ dump(user) }} -->
+{% endblock %}
